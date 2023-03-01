@@ -1,0 +1,578 @@
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url(/Fonts/Avenir/FontsFree-Net-AvenirLTStd-Book.ttf);
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url(/Fonts/Aeonik/AeonikTRIAL-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url(/Fonts/Aeonik/AeonikTRIAL-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Aeonik';
+    src: url(/Fonts/Aeonik/AeonikTRIAL-Light.otf);
+    font-weight: 300;
+}
+
+:root {
+    --white: #FFFCFC;
+
+
+}
+
+body {
+    margin: 0;
+}
+
+.conteiner {
+    max-width: 1440px;
+    min-height: auto;
+    margin: auto;
+    background: linear-gradient(277deg, grey, black);
+}
+
+.header {
+    height: 10%;
+    margin: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo_img {
+    margin-top: 25px;
+    margin-left: 118px;
+}
+
+.h3 {
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--white);
+    margin-left: 6px;
+    margin-top: 25px;
+}
+
+
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+
+
+}
+
+.nav a {
+    display: block;
+    padding: 35px;
+}
+
+.button {
+    width: 204px;
+    height: 50px;
+    background-color: black;
+    border: 1.5px solid var(--white);
+    border-radius: 5px;
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+    margin-top: 19px;
+    margin-right: 120px;
+    margin-bottom: 0;
+}
+
+.button:hover {
+    background-color: #3775ED;
+}
+
+.main {
+    height: 90%;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.h1 {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 78px;
+    text-align: center;
+    color: var(--white);
+    padding-top: 112px;
+}
+
+span {
+    color: #3775ED;
+}
+
+.text {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #E5E5E5;
+    margin-top: 47px;
+}
+
+p {
+    margin: 0;
+}
+
+.subsection_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+    margin-bottom: 54px;
+}
+
+.img {
+    margin-left: 120px;
+    width: 100%;
+}
+
+.h2_1 {
+    text-align: center;
+    margin-top: 172px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--white);
+}
+
+.text_2 {
+    margin-top: 19px;
+}
+
+.subsection_2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.box {
+    width: 385px;
+    height: 277px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box_1 {
+    background-color: #C96408;
+    margin-right: 22px;
+}
+
+.img_logo {
+    position: relative;
+    left: -192px;
+    top: -37px;
+}
+
+.img_logo_1 {
+    position: relative;
+    left: 74px;
+    top: -37px;
+
+}
+
+.emblem_1 {
+    /* position: relative;
+    left: -96px;
+    top: 13px; */
+    margin-top: 25px;
+    margin-left: -187px;
+}
+
+.h4 {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--white);
+    margin-top: 20px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.paragraf {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--white);
+    margin-top: 14px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.box_2 {
+    background-color: #7937BB;
+    margin-right: 22px;
+}
+
+.emblem_2 {
+    margin-top: 25px;
+}
+
+.box_3 {
+    background-color: #3775ED;
+}
+
+.subsection_1_1 {
+    max-width: 1200px;
+    min-height: 347px;
+    margin-left: 120px;
+    margin-top: 24px;
+    background-color: #1A1919;
+    padding-top: 112px;
+    box-sizing: border-box;
+
+}
+
+.h2_2 {
+    text-align: center;
+
+}
+
+.text_3 {
+    margin-top: 18px;
+    line-height: 31px;
+}
+
+
+.logo_1 {
+    position: relative;
+    top: -169px;
+    left: 96px;
+}
+
+.logo_2 {
+    position: relative;
+    top: 0px;
+    left: -16px;
+}
+
+.logo_3 {
+    position: relative;
+    top: 41px;
+    left: 109px;
+}
+
+.logo_4 {
+    position: relative;
+    top: -167px;
+    left: 494px;
+}
+
+.logo_5 {
+    position: relative;
+    top: 47px;
+    left: 582px;
+}
+
+.logo_6 {
+    position: relative;
+    top: 0px;
+    left: 741px;
+}
+
+.logo_7 {
+    position: relative;
+    top: -115px;
+    left: 743px;
+}
+
+.logo_8 {
+    position: relative;
+    top: -178px;
+    left: 486px;
+}
+
+.border {
+    border: 1px solid #282828;
+    max-width: 1200px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.h2_3 {
+    margin-left: 120px;
+    margin-top: 52px;
+    line-height: 48px;
+}
+
+.text_4 {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    margin-left: 120px;
+    color: #E5E5E5;
+    margin-top: 20px;
+}
+
+.subsection_3 {
+    height: 304px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 77px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 0;
+
+}
+
+.name {
+    width: 282px;
+    height: 75px;
+    /* filter: brightness(25%); */
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 0 0 5px 5px;
+    padding-top: 9px;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+
+.name_1 {
+    position: relative;
+    top: -79px;
+    right: 0px;
+}
+
+h5 {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--white);
+    margin: 0;
+}
+
+.mini_block {
+    display: flex;
+}
+
+h6 {
+    margin: 0;
+    margin-right: 130px;
+}
+
+
+.subsection_4 {
+    height: 304px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 28px;
+    margin-left: 120px;
+    margin-right: 732px;
+    margin-bottom: 0;
+}
+
+.button_4 {
+    margin-top: 85px;
+    margin-left: 618px;
+    margin-bottom: 0;
+}
+
+.section_3 {
+    margin-top: 61px;
+}
+
+.h2_4 {
+    text-align: center;
+}
+
+.text_5 {
+    margin-bottom: 72px;
+    text-align: center;
+}
+
+.subsection_5 {
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+.box_4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 27px;
+    margin-right: 27px;
+}
+
+.mini_box {
+    width: 378px;
+    height: 152px;
+    background-color: #1A1919;
+    padding-top: 21px;
+    padding-left: 18px;
+    box-sizing: border-box;
+
+}
+
+.text_6 {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--white);
+}
+
+h6 {
+    font-family: 'Aeonik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.submini_box {
+    display: flex;
+    margin-top: 25px;
+}
+
+.baner {
+    width: 1200px;
+    height: 480px;
+    background-image: url(./img/Rectangle\ 52.jpg);
+    margin-left: 120px;
+    padding-top: 129px;
+    padding-left: 77px;
+    box-sizing: border-box;
+}
+
+.h2_5{
+    font-family: 'Aeonik';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+color: var(--white);
+margin-bottom: 22px;
+}
+.text_7{
+    font-family: 'Aeonik';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: var(--white);
+}
+
+.section_4{
+    width: 1200px;
+height: 291px;
+background-color: #3775ED;
+margin-top: 50px;
+margin-left: 120px;
+border-radius: 10px;
+text-align: center;
+padding-top: 48px;
+box-sizing: border-box;
+
+}
+
+.button_5{
+    margin-left: 124px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 84px 108px 66px 132px;
+    
+    /* margin-top: 84px;
+    margin-left: 132px;
+    margin-bottom: 66px;
+    margin-right:108px ; */
+}
+
+.h3_1{
+    font-family: 'Aeonik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: var(--white);
+}
+
+.subfooter{
+    display: flex;
+}
+
+.item{
+    margin-right: 20px;
+}
+
+
+
